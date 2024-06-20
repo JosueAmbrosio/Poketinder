@@ -1,4 +1,6 @@
-import PokemonResponse
+package com.ambrosio.josue.poketinder.ui.adapter
+
+import com.ambrosio.josue.poketinder.data.model.PokemonResponse
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup

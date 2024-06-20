@@ -1,6 +1,4 @@
-package com.ambrosio.josue.poketinder
-
-import PokemonResponse
+package com.ambrosio.josue.poketinder.data.model
 
 data class PokemonListResponse(
     val count: Int,

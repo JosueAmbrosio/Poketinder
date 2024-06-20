@@ -1,15 +1,16 @@
-package com.ambrosio.josue.poketinder
+package com.ambrosio.josue.poketinder.ui.viewmodel
 
-import PokemonResponse
+import com.ambrosio.josue.poketinder.data.model.PokemonResponse
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import com.ambrosio.josue.poketinder.data.network.PokemonApi
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
-class MainViewModel: ViewModel() {
+class HomeViewModel: ViewModel() {
 
     val pokemonList = MutableLiveData<List<PokemonResponse>>()
 

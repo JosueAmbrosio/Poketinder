@@ -1,3 +1,5 @@
+package com.ambrosio.josue.poketinder.data.model
+
 data class PokemonResponse(
     val name: String,
     val url: String
